@@ -12,14 +12,8 @@ class Exercises extends Component {
           <li>this</li>
           <li>that</li>
           <li>the other</li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
         </ul>
+        <button><a href='/Logs'>Logs</a></button>
       </div>
     )}
 }

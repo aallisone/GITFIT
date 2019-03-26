@@ -6,13 +6,13 @@
   background-color: #333;
 }
 
-li {
+.thisList {
   float: right;
 }
 
-.thisNav, li a {
+.thisNav li a {
   display: block;
-  color: white;
+  color: rgb(60, 82, 55);
   text-align: center;
   padding: 14px 35px;
   text-decoration: none;

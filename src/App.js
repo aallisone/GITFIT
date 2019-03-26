@@ -10,6 +10,8 @@ import './App.css';
 import NavBar from './components/App/NavBar.js'
 import Home from './components/Home.js'
 import Exercises from './components/Exercises.js'
+import LogEx from './components/Log';
+
 
 
 class App extends Component {
@@ -18,8 +20,9 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <BrowserRouter>
-          <Route path='/Exercises' component={Exercises} />
-          <Route path='/Home' component={Home} />
+          <Route path='/Logs' component={ LogEx }/>
+          <Route path='/Exercises' component={ Exercises } />
+          <Route path='/Home' component={ Home } />
         </BrowserRouter>
       </div>
     );
